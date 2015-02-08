@@ -1,0 +1,5 @@
+node_modules
+src/*.o
+src/moc_*.cpp
+src/Makefile
+bin/browserjet-bin
