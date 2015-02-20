@@ -5,11 +5,15 @@ for site scraping, testing, page screenshots, saving pdfs, and more.
 
 Installing
 --------------------------------------
-To install the node.js module simply use
+Browserjet's binary depends on [Qt4](https://www.qt.io/download-open-source/) and Qt-Webkit, therefore you will need it installed on your system for the build to succeed.
+Only Linux 32/64 bits have been tested so far.
+
+* Ubuntu: `apt-get install libqtwebkit-dev`
+
+Once dependencies are satisfied:
 
     npm install browserjet
 
-Currently supported is Linux 32/64
 
 Usage
 --------------------------------------

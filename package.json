@@ -9,7 +9,7 @@
     "node": ">= 0.4.0"
   },
   "scripts":{
-    "install" : "./install.py"
+    "install" : "cd ./src && qmake-qt4 && make"
   },
   "dependencies": {},
   "devDependencies": {
