@@ -1,19 +1,21 @@
-Browserjet - headless webkit with a node.js interface
+Cutie - headless Qt/webkit browser with a node.js interface
 ================================================================
-Browserjet gives you access to headless webkit which is often useful 
-for site scraping, testing, page screenshots, saving pdfs, and more.
+Cutie is a headless webbrowser based on browserjet. Cutie adds
+a more refined API on top of browserjet (https://github.com/briankircho/browserjet), as well as some additional logic
+to wait for page loads for more detailed introspection of your tested website.
 
 Installing
 --------------------------------------
-Browserjet's binary depends on [Qt4](https://www.qt.io/download-open-source/) and Qt-Webkit, therefore you will need it installed on your system for the build to succeed.
+Cutie/Browserjet's binary depends on [Qt4](https://www.qt.io/download-open-source/) and Qt-Webkit, therefore you will need it installed on your system for the build to succeed.
 Only Linux 32/64 bits have been tested so far.
 
 * Ubuntu: `apt-get install libqtwebkit-dev`
 
-Once dependencies are satisfied:
-
-    npm install browserjet
-
+Building browserjet from inside cutie:
+    cd cutie/
+    qmake-qt4
+    make
+    
 
 Usage
 --------------------------------------
