@@ -13,7 +13,8 @@ Only Linux 32/64 bits have been tested so far.
 * Ubuntu: `apt-get install libqtwebkit-dev`
 
 Building browserjet from inside cutie:
-```    cd cutie/
+```shell
+    cd cutie/
     qmake-qt4
     make
 ```    
